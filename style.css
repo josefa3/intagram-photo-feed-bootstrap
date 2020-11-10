@@ -4,3 +4,10 @@
 .navbar-brand {
     font-family: 'Lobster', cursive;
 }
+.container-fluid {
+    height: 90%;
+    width: 100%;
+}
+.col-4 img {
+    background-size: cover;
+} 
