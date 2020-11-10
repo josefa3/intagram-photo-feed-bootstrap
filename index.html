@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <title>Bootstrap</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-light bg-light fixed-top">
+           <div class="navbar-header mx-5">
+                <span class="navbar-brand mb-0 h1 text-secondary"><h3><i class="fab fa-instagram ml-5"></i><strong>Instagram</strong></h3></span>
+           </div>
+           <div class="navbar navbar-left mx-5">
+               <button type="button" class="btn btn-success" data-toggle="modal" data-target="#myModal">Created a new post</button>
+               <div class="modal fade" id="myModal" role="dialog">
+                  <div class="modal-dialog">
+                       <div class="modal-content">
+                          <div class="modal-body">
+                              <form>
+                                  <div class="form-group"><textarea class="form-control" id="message-text"></textarea></div>
+                              </form>
+                              <div class="text-dark">
+                                 <a href="#"><i class="fas fa-camera text-dark mr-1"></i></a>
+                                 <a href="#"><i class="fas fa-map-marker-alt text-dark"></i></a>
+                              </div>
+                           </div>
+                           <div class="modal-footer">
+                              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                              <button type="button" class="btn btn-success">Publish</button>
+                           </div>
+                       </div>
+                   </div>
+              </div>     
+              <div class="dropdown mr-5">
+                  <button class="btn btn-light dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      <i class="fas fa-cog text-secondary ml-1"></i>
+                  </button>
+                  <div class="dropdown-menu mr-5" aria-labelledby="dropdownMenuButton">
+                      <a class="dropdown-item" href="#">Action</a>
+                      <a class="dropdown-item" href="#">Another action</a>
+                      <a class="dropdown-item" href="#">Something else here</a>
+                      <hr/>
+                      <a class="dropdown-item" href="#">Log out</a>
+                   </div>
+               </div>
+          </div>       
+        </nav>
+    </header>
+</body>
+</html>
