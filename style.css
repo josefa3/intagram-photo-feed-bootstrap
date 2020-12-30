@@ -4,10 +4,6 @@
 .navbar-brand {
     font-family: 'Lobster', cursive;
 }
-.container-fluid {
-    height: 90%;
-    width: 100%;
+.vista-dos{
+    margin: auto;
 }
-.col-4 img {
-    background-size: cover;
-} 
